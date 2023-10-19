@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SGF-MP1</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <Style>
+body{
+  background-color: rgba(80, 58, 58, 0.301);
+  font-family: "Trirong", serif;
+} 
+.ssm {
+  border-radius: 50%;
+}
+.container{
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  background: white;
+  width: 350px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.card-image{     
+  height:160px;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card p{
+  padding: 10px;
+  text-align: center;
+}
+.card h2{
+  text-align: center;
+}
+.card a{
+  background-color: rgb(26, 25, 25);
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card:hover{
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  transform:  scale(1.03);
+  transition:  all 1s ease;
+}
+*{
+  color:black;
+}
+        </Style>
+    </head></head>
+    <body>
+    <!--NAVBAR-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active me-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-4" aria-current="page" href="page1morerecipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-4" aria-current="page" href="page1videos.html">Video Recipes</a>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark me-5" type="submit">Search</button>
+              <a class="btn btn-dark me-3" href="Login.html" role="button">Login</a>
+              <a class="btn btn-dark me-2" href="Register.html" role="button">Register</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--about us-->
+<div lc-helper="background" class="container-fluid py-5 mb-4 d-flex" 
+style="  background-image: url('bg1.jpg');
+background-position: center;
+background-size:cover;
+background-repeat:no-repeat">
+<div class=" mt-5 mb-2 col-lg-12 col-12" 
+style=" backdrop-filter: blur(6px) saturate(102%);
+background-color: rgba(255, 255, 255, 0.301);
+border-radius: 12px;">
+           <section class="col-md-12">
+
+                <div class="row d-flex justify-content-center" style="padding-top: 35px;">
+
+                    <div class="card">
+                        <a style="color: white; padding: 5px; font-size: 30px;">About Us</a><br>
+                        <a style="color: white; padding: 5px; margin: 5px;" >Welcome to my Page!</a>
+                        <img src="tornado-mekus-mekus.gif" style="height: 400px; margin: 10px; border-radius: 10px;">
+                    </div>
+
+                    <div class="card">
+                        <p><br>My name is <b style="font-size: 15px;">Mekus-Mekus</b>. I live in the Northern suburbs of Chicago. I created this Filipino food blog, <b style="font-size: 15px;">SFG (Simply Good Food)</b>, to share my best Filipino and Asian recipes to everyone.<hr>
+
+                            As huge fan of the Filipino way of cooking, it is my goal to teach people how to cook Filipino dishes  using the simplest way possible.<hr>
+                            
+                            Aside for my deep passion in cooking and my continuous craving for the distinctive Filipino taste, I was motivated to create cooking videos in order to promote Filipino food.  I noticed that Filipino Cuisine is not well represented outside of the Philippines. It is time for our food to be noticed, known, tasted, and enjoyed by the rest of the world.</p>
+                    </div>
+
+                    <div class="card" style="padding: 1.5em .5em .5em;
+                    border-radius: 2em;
+                    text-align: center;
+                    box-shadow: 0 5px 10px rgba(0,0,0,.2);">
+                        <img src="mekus.png" class="card-img-top" style="width: 65%;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                        box-shadow: 0 0 10px rgba(0,0,0,.2);">
+                        <div class="card-body">
+                          <h5 class="card-title">Mekus-Mekus</h5>
+                          <p class="card-text">As a huge fan of Filipino food, it is my goal to teach people how to cook it using the simplest way possible. Prepare your taste buds for an ultimate showdown of delectable Filipino dishes!</p>
+                          <a href="aboutus.html" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                    
+                    </div>
+            </section>
+            </div>
+            </div>
+
+
+ <!--Footer-->
+  <footer class="text-center" style="background-color: rgba(255, 255, 255, 0.45);">
+    <div class="container">
+
+      <section class="col-md-12">
+        <div class="row text-center d-flex justify-content-center pt-4 pb-2">
+          
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="aboutus.html" class="text-dark">About us</a>
+            </h6>
+          </div>
+          
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="followus.html" class="text-dark">Follow us</a>
+            </h6>
+          </div>
+          
+          <div class="col-md-4">
+            <h6 class="text-uppercase">
+              <a href="terms.html" class="text-dark">Terms and Condition</a>
+            </h6>
+          </div>
+          
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="privacy.html" class="text-dark">Privacy Policy</a>
+            </h6>
+          </div>
+          
+          <div class="col-md-2">
+            <h6 class="text-uppercase">
+              <a href="cookies.html" class="text-dark">Cookies</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+      
+      <section class="col-md-12">
+        <hr>
+      </section>
+
+      <section class="mb-3 mt-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              <b style="font-size: 15px;">Browse Over 1500+ Filipino Recipes</b>
+                      With over 5 million Youtube subscribers, <b style="font-size: 15px;">SGF</b> is the internet’s top source 
+                      of tried & true, kitchen-tested Filipino recipes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center mb-2">
+        <a href="https://www.facebook.com/28cricket"><img class="ssm" src="facebook logo.png" width="30px" alt="Avatar"></a>
+        <a href="https://twitter.com/"><img class="ssm" src="twitter.png" width="30px" alt="Avatar"></a>
+        <a href="https://discord.com/channels/1159305911312076885/1159305912226418721"><img class="ssm" src="discord.png" width="30px" alt="Avatar"></a>
+      </section>
+
+    </div>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >© 2023 Copyright:</div>
+  
+      <!--boostrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </body>
+    
+</html>
